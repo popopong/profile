@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,300&display=swap');
+
+body {
+  background-color: rgba(247, 227, 240, 0.5);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(206, 74, 98);
+}
+
+h1 {
+  color: rgb(400, 48, 100);
+}
+
+h2 {
+  color: rgb(250, 70, 100)
+}
+
+li {
+  color: rgb(180, 9, 0);
+  text-decoration: none;
+}
+
+li:hover {
+  color: rgba(180, 9, 0, 0.3);
+  text-decoration: none;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.card-white {
+  background: rgb(242, 244, 247);
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.btn-orange {
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: rgb(247, 112, 59);
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: rgba(247, 112, 59, 0.8);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  font-size: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+
+#avatar {
+  height: 150px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
